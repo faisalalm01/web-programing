@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(218, 218, 218);
+}
+/* [class*="col-"] {
+ 
+    border: 1px solid red;
+  } */
+.jumbotron{
+    position: relative;
+     background: url(./img/coffeebean.jpg);
+     width: 100%;
+     height:70%;
+     background-size: cover;
+     /* overflow: hidden; */
+}
+.btn-header {
+    margin: 1%;
+    
+}
+
+/* baris ke 1 */
+.col-md-6A {width: 50%; padding-top: 15%; padding-bottom: 10%;}
+.col-md-12-a {width: 70%;margin-left: 28%;}
+.col-md-12-b {width: 70%;margin-left: 2%;}
+    /* gambar */
+    .gambar1 {
+        width:100%;
+        margin: 0%;
+        border-radius: 15%;
+    }
+    .gambar2 {
+        width:100%;
+        height: 80%;
+        margin: 0%;
+        border-radius: 15%;
+    }
+
+/* baris ke 2 */
+.col-md-12B {
+    margin-top: 1%;
+    /* height: 60%; */
+}
+.img-bg2{
+    padding: 0%;
+    width: 100%;
+    height: 70%;
+}
+
+/* baris ke 3 */
+.col-md-6C-1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    font-size: 40px;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.col-md-6C-2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    /* padding-top: 5%; */
+    
+}
+.gambar3 {
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+}
+
+/* baris ke 4 */
+.col-md-12D {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+/* footer */
+.col-md-12-footer {
+    background-color:rgb(53, 53, 53);
+    color: white;
+    height: 10%;
+
+}
+
+.col-md-3{
+    margin-top: 5%;
+}
